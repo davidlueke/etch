@@ -1,0 +1,15 @@
+
+.box {
+    box-sizing: border-box;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+}
+
+.tile {
+    box-sizing: border-box;
+    background-color: rgb(177, 177, 177);
+    flex: 1;
+}
