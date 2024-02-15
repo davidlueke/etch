@@ -7,7 +7,7 @@ function createTiles(length){
 
     pixel.oninput = () => {
         let value = pixel.value;
-        pixelInfo.textContent = value;
+        pixelInfo.textContent = `Size: ${value} X ${value}`;
         document.querySelectorAll(".tile").forEach(el => el.remove());
         createTiles(value);
     }
