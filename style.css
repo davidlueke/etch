@@ -1,3 +1,21 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    height: 100vh;
+}
+
+.header  {
+    background-color: #1F2937;
+    height: 200px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
 
 .box {
     box-sizing: border-box;
@@ -12,4 +30,24 @@
     box-sizing: border-box;
     background-color: rgb(177, 177, 177);
     flex: 1;
+    border: solid;
+    border-width: 0.00005cm;
+}
+
+.header  {
+    background-color: #1F2937;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: rgb(177, 177, 177);
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 200px;
 }
