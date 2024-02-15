@@ -11,11 +11,14 @@ function createTiles(){
         tile.classList.add("tile");
         tile.style.minHeight = getWidth();
         tile.style.minWidth = getWidth();
+        tile.addEventListener("mouseover", (e) => {
+            e.target.style.backgroundColor = "#1F2937"
+        })
         box.appendChild(tile);
     }
 };
 
-let pixel = 16;
+let pixel = 32;
 const box = document.querySelector(".box");
 
 createTiles();
